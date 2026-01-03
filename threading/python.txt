@@ -1,0 +1,7 @@
+# Creating and writing to a text file
+with open("python.txt", "w") as file:
+    file.write("Python is a high-level programming language.\n")
+    file.write("It is easy to learn and easy to read.\n")
+    file.write("Python is widely used in web development, data science, AI, and automation.\n")
+
+print("File created and content written successfully.")
